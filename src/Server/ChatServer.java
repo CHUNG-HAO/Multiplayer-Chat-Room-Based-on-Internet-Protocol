@@ -3,12 +3,6 @@ package Server;
 import java.io.*;
 import java.net.*;
 import java.util.*;
-
-/*
-server端
- */
-
-
 public class ChatServer {
     private ServerSocket ss;
     private boolean flag = false;

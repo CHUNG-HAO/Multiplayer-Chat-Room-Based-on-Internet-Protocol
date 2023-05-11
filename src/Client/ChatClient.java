@@ -6,8 +6,6 @@ import java.awt.event.*;
 import java.io.*;
 import java.net.Socket;
 import java.net.SocketException;
-
-
 public class ChatClient extends JFrame {
     private JTextArea sendArea, contentArea;
     JPanel p1, p11, p12, p2, p21, p22;
@@ -230,7 +228,6 @@ public class ChatClient extends JFrame {
         }
     }
 
-    //顯示訊息
     public void showMsg(String msg) {
         contentArea.append(msg + "\n");
         contentArea.setCaretPosition(contentArea.getText().length());
